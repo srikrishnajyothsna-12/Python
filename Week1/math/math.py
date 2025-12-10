@@ -1,0 +1,13 @@
+import math
+a,b = map(int,input("Enter two integers:").split())
+angle = int(input("Enter an angle(in degrees):"))
+print("Square root =",math.sqrt(a))
+print("log(base e) =",math.log(a))
+print("log(base 10) =",math.log10(a))
+print("sin(angle) =",math.sin(math.radians(angle)))
+print("cos(angle) =",math.cos(math.radians(angle)))
+print("tan(angle) =",math.tan(math.radians(angle)))
+print("Factorial =",math.factorial(b))
+print("GCD =",math.gcd(a,b))
+print("LCM =",math.lcm(a,b))
+print("Remainder =",math.remainder(a,b))
